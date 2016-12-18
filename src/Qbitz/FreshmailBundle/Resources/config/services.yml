@@ -14,8 +14,7 @@ services:
     qbitz.freshmail.buzz.browser:
         class: 'Buzz\Browser'
         public: false
-        factory_service:  qbitz.freshmail.buzz.browser_factory
-        factory_method:   getBrowser
+        factory: 'qbitz.freshmail.buzz.browser_factory:getBrowser'
         arguments:
             - "%qbitz.freshmail.buzz_client%"
             - "%qbitz.freshmail.buzz_timeout%"
