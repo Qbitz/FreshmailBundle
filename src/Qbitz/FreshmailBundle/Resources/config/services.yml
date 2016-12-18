@@ -21,7 +21,7 @@ services:
     qbitz.freshmail:
         class: "%qbitz.freshmail.class%"
         arguments:
-            - @qbitz.freshmail.buzz.browser
+            - "@qbitz.freshmail.buzz.browser"
             - "%qbitz.freshmail.api_key%"
             - "%qbitz.freshmail.api_secret%"
             - "%qbitz.freshmail.host%"
