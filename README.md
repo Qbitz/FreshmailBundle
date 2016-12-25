@@ -28,7 +28,7 @@ W config.yml wymagana jest konfiguracja dla bundla:
         buzz_timeout:         5
         api_key:              null # Required
         api_secret:           null # Required
-        host:                 'https://app.freshmail.pl/'
+        host:                 'https://app.freshmail.com/'
         prefix:               rest/
 
 Tylko api_key i api_secret są wymagane, host i prefix lepiej nie zmieniać bo na razie tylko tak można się odwoływać.
