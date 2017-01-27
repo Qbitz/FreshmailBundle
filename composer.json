@@ -6,6 +6,7 @@
     "type": "symfony-bundle",
     "license": "MIT",
     "minimum-stability": "stable",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Piotr Kubowicz",
